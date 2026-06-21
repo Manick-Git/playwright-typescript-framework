@@ -1,0 +1,37 @@
+{
+    "content-type": "application/json; charset=utf-8",
+    "booking-id":"3",
+    "booking-id-update":"2",
+    "booking-id-delete":"5",
+    "firstname":"wish",
+
+"create-booking":{
+    "firstname" : "Wish",
+    "lastname" : "Infinite",
+    "totalprice" : 111,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2018-01-01",
+        "checkout" : "2019-01-01"
+        },
+    "additionalneeds" : "Breakfast"
+    },
+
+"update_booking":{
+    "firstname" : "Wish",
+    "lastname" : "Infinite",
+    "totalprice" : 500,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2018-01-01",
+        "checkout" : "2019-01-01"
+        },
+    "additionalneeds" : "Breakfast"
+    },
+
+"update_partial_booking":{
+    "firstname" : "Wish",
+    "lastname" : "Infinite"
+    }
+    
+}

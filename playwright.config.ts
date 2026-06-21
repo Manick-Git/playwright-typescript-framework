@@ -58,6 +58,18 @@ export default defineConfig({
         storageState: './playwright/.auth/auth.json',
        },
     },
+    {
+      name: 'apiTest',
+      testDir:'./tests/api-tests',
+        use:{
+        baseURL: process.env.API_BASE_URL,
+        extraHTTPHeaders:{
+          'Content-Type':'application/json',
+          Accept:'application/json',
+        //Authorization:"Basic YWRtaW46cGFzc3dvcmQxMjM=" 
+        }
+      }
+    },
 
    /* {
       name: 'firefox',

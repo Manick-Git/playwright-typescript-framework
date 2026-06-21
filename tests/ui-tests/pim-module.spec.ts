@@ -1,6 +1,6 @@
-import {test, expect} from '../fixtures/hooks-fixture';
-import { LeftNavigationPage } from '../pages/LeftNavigationPage';
-import pimData from '../data/pim-module-data.json' with { type : 'json'};
+import {test, expect} from '../../fixtures/hooks-fixture';
+import { LeftNavigationPage } from '../../pages/LeftNavigationPage';
+import pimData from '../../data/ui-data/pim-module-data.json' with { type : 'json'};
 
 test('add employee in PIM', {tag: ['@UI','@UAT'],
       annotation:{

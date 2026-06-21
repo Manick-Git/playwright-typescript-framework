@@ -13,7 +13,8 @@
     "test_demo_cr_ui": "cross-env ENV_NAME=demo npx playwright test --project=chromium --ui",
     "test_demo_ui": "cross-env ENV_NAME=demo npx playwright test --ui",
     "test_uat_cr_hd": "cross-env ENV_NAME=demo npx playwright test --project=chromium --grep=@UAT",
-    "test_demo_cr_hd_lf": "cross-env ENV_NAME=demo npx playwright test --project=chromium --last-failed"
+    "test_demo_cr_hd_lf": "cross-env ENV_NAME=demo npx playwright test --project=chromium --last-failed",
+    "test_api_demo": "cross-env ENV_NAME=demo npx playwright test --project=apiTest"
   },
   "compilerOptions": {
     "types": [
